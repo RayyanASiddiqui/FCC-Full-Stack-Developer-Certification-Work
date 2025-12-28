@@ -1,2 +1,2 @@
-# FCC-Responsive-Web-Design-Certificiation-Work
-A collection of projects from the freeCodeCamp Responsive Web Design Certification that I've done as I progress through the course.
+# FCC-Full-Stack-Developer-Certification-Work
+A collection of projects from the freeCodeCamp Full Stack Certification that I'm going through. This is all the way from the beginning to the end, so it will contain very beginner projects to the more advanced ones I do as I progress. This is so I can keep track of my improvement and show off the skills I've learned through practice and practical application.
