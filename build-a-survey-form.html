@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please kindly fill out this survey about your info.</p>
+
+    <form id="survey-form">
+      <label id="name-label" for="name">Name:</label>
+      <input required type="text" id="name" placeholder="Izuku Midoriya" />
+      <label id="email-label" for="email">Email:</label>
+      <input required type="email" id="email" placeholder="deku@ua.com" />
+      <label id="number-label" for="number">Number:</label>
+      <input id="number" type="number" min=3 max=100 placeholder="67"/>
+      <label for="dropdown">Gender:</label>
+      <select id="dropdown">
+        <option>N/A</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+      <label>Citizen:</label>
+      <input type="radio" name="radios" id="radios" value="ligma">
+      <label>Not Citizen:</label>
+      <input type="radio" name="radios" id="radios" value="sigma">
+      <fieldset>
+        <legend>Pick every colour here that you like:</legend>
+        <input type="checkbox" value="red">
+        <label>Red</label>
+        <input type="checkbox" value="blue">
+        <label>Blue</label>
+        <input type="checkbox" value="yellow">
+        <label>Yellow</label>
+      </fieldset>
+      <fieldset>
+      <legend>Anything else you want to add?</legend>
+      <textarea id="extra"></textarea>
+      </fieldset>
+
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+
+  </body>
+</html>
